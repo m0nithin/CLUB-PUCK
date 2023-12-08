@@ -341,8 +341,12 @@ footer {
 
 .follow-content {
     position: relative;
+    border: 10px solid #333;
+    border-radius: 35px;
     margin-top: 34px;
-    background-image: url(/vector-1.svg), url("/at-bg2-1.png");
+    background-image: url(/vector-1.svg), url("/bg.gif");
+    background-position: center;
+    background-size: cover;
     padding: 159px 0;
     display: flex;
     justify-content: center;
